@@ -21,7 +21,7 @@ def authenticate(user_password, stored_hashed_password):
     # import bcrypt
     # HASHED_PASSWORD = b'$2b$12$EXAMPLEHASHFROMSTOREDCREDENTIALS'
     # return bcrypt.checkpw(user_password.encode('utf-8'), HASHED_PASSWORD)
-Ensure all string literals are properly quoted. If '100 hello' is intended to be a single string, it must be enclosed in quotes. If it's meant to be multiple assignments or an expression, it needs to follow Python's syntax rules.
+Correct the syntax of these lines. If `hello` is meant to be a string, enclose it in quotes: `x = 'hello'`. If `sum` is meant to be a function call, ensure it's called correctly, e.g., `return sum(some_list)` or `return some_variable_named_sum`.
 
 ```python
 x = "100 hello" # If '100 hello' is a string
