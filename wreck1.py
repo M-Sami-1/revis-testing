@@ -2,7 +2,7 @@
 
 Change `import maths` to `import math`.
 
-def add_numbers(a b):   # missing comma
+Separate function parameters with a comma: `def add_numbers(a, b):`.
 print("Adding numbers")   # bad indentation
     return a + b + c   # c is undefined
 
