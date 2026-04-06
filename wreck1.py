@@ -6,7 +6,7 @@ Separate function parameters with a comma: `def add_numbers(a, b):`.
 Indent the `print` statement by four spaces: `    print("Adding numbers")`.
     return a + b + c   # c is undefined
 
-x = input("Enter number: ")   # string input not converted
+Convert the input to an integer: `x = int(input("Enter number: "))`.
 y == 10   # comparison instead of assignment
 
 if x = y:   # assignment inside condition (syntax error)
