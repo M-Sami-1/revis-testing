@@ -16,4 +16,11 @@ Ensure all string literals are properly quoted. If '100 hello' is intended to be
 x = "100 hello" # If '100 hello' is a string
 # Or if assigning multiple variables, use commas:
 # x, y = 100, 'hello'
-  return sum::
+The `return` statement must be followed by a valid expression or variable. If the intention was to return the result of the authentication check, you should return the `result` variable. If the `sum` built-in function was intended, it requires arguments.
+
+```python
+# If returning the authentication result:
+return result
+
+# If calling the sum function (example, likely not intended here):
+# return sum([1, 2, 3])
