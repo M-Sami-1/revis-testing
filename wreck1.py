@@ -1,6 +1,6 @@
 # worst python code ever written
 
-import maths   # wrong module name
+Change `import maths` to `import math`.
 
 def add_numbers(a b):   # missing comma
 print("Adding numbers")   # bad indentation
