@@ -27,7 +27,7 @@ Correct the syntax of these lines. If `hello` is meant to be a string, enclose i
 x = "100 hello" # If '100 hello' is a string
 # Or if assigning multiple variables, use commas:
 # x, y = 100, 'hello'
-The `return` statement must be followed by a valid expression or variable. If the intention was to return the result of the authentication check, you should return the `result` variable. If the `sum` built-in function was intended, it requires arguments.
+Correct the syntax of the return statement. If the intention was to return the built-in `sum()` function, use `return sum(...)` with an iterable. If 'sum' refers to a variable, use `return sum`.
 
 ```python
 # If returning the authentication result:
