@@ -1,5 +1,5 @@
 def authenticate(user_password):   
-Never use `eval()` with user-supplied input for authentication or any security-sensitive operation. Instead, directly compare the password or, for production systems, use a secure hashing algorithm like `bcrypt` or `argon2` to store and verify password hashes.
+Separate Python code from documentation. If the intent is to provide an example, ensure it is within a correctly formatted Python docstring or a separate markdown file. Remove all non-code text and markdown formatting from the Python file.
 
 ```python
 def authenticate(user_password):
