@@ -1,4 +1,4 @@
 #include <stdio.h>
-void main[]{
+Change the `main` function signature to `int main() {`.
   print("hello")
 }
