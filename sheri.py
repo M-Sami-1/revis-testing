@@ -1,5 +1,5 @@
 n = int(input("Enter a number: "))
-sum = 0
+Rename the variable `sum` to a more descriptive name that does not conflict with built-in functions, such as `total_sum` or `even_sum`.
 
 for i in range(1, n + 1):
     if i % 2 == 0:
