@@ -3,7 +3,7 @@
 Change `import maths` to `import math`.
 
 Separate function parameters with a comma: `def add_numbers(a, b):`.
-print("Adding numbers")   # bad indentation
+Indent the `print` statement by four spaces: `    print("Adding numbers")`.
     return a + b + c   # c is undefined
 
 x = input("Enter number: ")   # string input not converted
