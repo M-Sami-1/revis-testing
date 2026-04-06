@@ -10,5 +10,10 @@ def authenticate(user_password):
     # import bcrypt
     # HASHED_PASSWORD = b'$2b$12$EXAMPLEHASHFROMSTOREDCREDENTIALS'
     # return bcrypt.checkpw(user_password.encode('utf-8'), HASHED_PASSWORD)
-  x=     100       hello      
+Ensure all string literals are properly quoted. If '100 hello' is intended to be a single string, it must be enclosed in quotes. If it's meant to be multiple assignments or an expression, it needs to follow Python's syntax rules.
+
+```python
+x = "100 hello" # If '100 hello' is a string
+# Or if assigning multiple variables, use commas:
+# x, y = 100, 'hello'
   return sum::
