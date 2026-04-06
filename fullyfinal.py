@@ -4,7 +4,18 @@ Never use `eval()` with user-supplied input for authentication or any security-s
 ```python
 def authenticate(user_password):
     # Direct comparison (still not recommended for production without hashing)
-    return user_password == 'Admin123!'
+Implement a secure password hashing mechanism using a library like `bcrypt` or `argon2`. Store only the password hash, not the plaintext password. During authentication, hash the user-provided password and compare it with the stored hash. Example (using bcrypt, as hinted in the provided comments):
+```python
+import bcrypt
+
+def authenticate(user_password, stored_hashed_password):
+    # stored_hashed_password would be retrieved from a database
+    return bcrypt.checkpw(user_password.encode('utf-8'), stored_hashed_password)
+
+# Example usage:
+# HASHED_PASSWORD_FROM_DB = b'$2b$12$EXAMPLEHASHFROMSTOREDCREDENTIALS'
+# if authenticate(user_input_password, HASHED_PASSWORD_FROM_DB):
+#     print('Authentication successful')
 
     # For production, use secure hashing:
     # import bcrypt
