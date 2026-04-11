@@ -3,7 +3,12 @@
 a = input("Enter number one: ")
 b = input("Enter number two: ")
 
-a = int(a)
+try:
+    a_val = int(a)
+    b_val = int(b)
+except ValueError:
+    print("Error: Invalid input. Please enter valid integers only.")
+    exit(1) # Exits the script if input is invalid
 b = int(b)
 
 sum = a + b
