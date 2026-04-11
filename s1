@@ -22,4 +22,5 @@ for i in range(1):
     sum = a + b
 
 # messy print
-print("The sum is: " + str(sum))
+```python
+print(f"The sum is: {total_sum}")
