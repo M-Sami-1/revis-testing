@@ -1,0 +1,15 @@
+def get_number(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+def add_numbers():
+    a = get_number("Enter first number: ")
+    b = get_number("Enter second number: ")
+    return a + b
+
+if __name__ == "__main__":
+    result = add_numbers()
+    print(f"The sum is: {result}")
