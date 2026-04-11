@@ -11,6 +11,6 @@ except ValueError:
     exit(1) # Exits the script if input is invalid
 b = int(b)
 
-sum = a + b
+total_sum = a_val + b_val
 
 print("The sum is:" + str(sum))
