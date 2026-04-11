@@ -5,7 +5,14 @@ b = input("Enter number two: ")
 
 # converting manually (bad practice without validation)
 a = int(a)
-b = int(b)
+```python
+# converting manually (bad practice without validation)
+try:
+    a = int(a)
+    b = int(b)
+except ValueError:
+    print("Error: Invalid input. Please enter valid integers for both numbers.")
+    exit(1) # Terminate the script gracefully on invalid input
 
 sum = 0
 
