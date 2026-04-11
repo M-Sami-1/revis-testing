@@ -1,0 +1,16 @@
+# Adds two numbers from user input
+
+a = input("Enter number one: ")
+b = input("Enter number two: ")
+
+try:
+    a_val = int(a)
+    b_val = int(b)
+except ValueError:
+    print("Error: Invalid input. Please enter valid integers only.")
+    exit(1) # Exits the script if input is invalid
+b = int(b)
+
+total_sum = a_val + b_val
+
+print("The sum is:" + str(total_sum))
