@@ -1,0 +1,26 @@
+# worst way to add two numbers
+
+a = input("Enter number one: ")
+b = input("Enter number two: ")
+
+# converting manually (bad practice without validation)
+a = int(a)
+```python
+# converting manually (bad practice without validation)
+try:
+    a = int(a)
+    b = int(b)
+except ValueError:
+    print("Error: Invalid input. Please enter valid integers for both numbers.")
+    exit(1) # Terminate the script gracefully on invalid input
+
+sum = 0
+```python
+total_sum = a + b
+# unnecessary loop just to add two numbers
+for i in range(1):
+    sum = a + b
+
+# messy print
+```python
+print(f"The sum is: {total_sum}")
