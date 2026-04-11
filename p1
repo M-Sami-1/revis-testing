@@ -1,4 +1,4 @@
-# worst way to add two numbers
+# Adds two numbers from user input
 
 a = input("Enter number one: ")
 b = input("Enter number two: ")
