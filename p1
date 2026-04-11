@@ -13,4 +13,4 @@ b = int(b)
 
 total_sum = a_val + b_val
 
-print("The sum is:" + str(sum))
+print("The sum is:" + str(total_sum))
