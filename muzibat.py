@@ -6,3 +6,4 @@ def sum_of_evens(n):
 
 n = int(input("Enter a number: "))
 print("Sum is:", sum_of_evens(n))
+
