@@ -20,4 +20,4 @@ def calculate_average(numbers):
 nums = [10, 20, 30, 40]
 result = calculate_average(nums)
 
-print("Average is: " + result)
+print(f"Average is: {result}")
