@@ -1,4 +1,10 @@
-def calculate_average(numbers)
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total = total + num
+    
+    average = total / len(numbers)
+    return average
     total = 0
     for num in numbers
         total = total + num
